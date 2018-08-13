@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KKChartView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    KKChartView *view = [[KKChartView alloc]initWithFrame:CGRectMake(-30, 64, self.view.frame.size.width, 200)];
+    view.coordinateColor = [UIColor whiteColor];
+    view.lineWidth = 2;
+    view.lineColor = [UIColor orangeColor];
+    view.dataAry = @[@"0",@"0",@"0",@"0",@"0",@"1.07",@"0.61"];
+    view.isShowGradient = YES;
+    view.gradientColor = @"FFA07A";
+    
+    [self.view addSubview:view];
 }
 
 

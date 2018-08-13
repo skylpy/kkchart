@@ -15,6 +15,8 @@
 		93C57CBD21217D8F0062D1B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C57CBC21217D8F0062D1B9 /* main.m */; };
 		93C57CC721217D8F0062D1B9 /* KKChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C57CC621217D8F0062D1B9 /* KKChartViewTests.m */; };
 		93C57CD221217D8F0062D1B9 /* KKChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C57CD121217D8F0062D1B9 /* KKChartViewUITests.m */; };
+		93C57CE321217E0E0062D1B9 /* KKChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C57CDF21217E0E0062D1B9 /* KKChartView.m */; };
+		93C57CE421217E0E0062D1B9 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C57CE021217E0E0062D1B9 /* UIColor+expanded.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		93C57CCD21217D8F0062D1B9 /* KKChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C57CD121217D8F0062D1B9 /* KKChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKChartViewUITests.m; sourceTree = "<group>"; };
 		93C57CD321217D8F0062D1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C57CDF21217E0E0062D1B9 /* KKChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKChartView.m; sourceTree = "<group>"; };
+		93C57CE021217E0E0062D1B9 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		93C57CE121217E0E0062D1B9 /* KKChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKChartView.h; sourceTree = "<group>"; };
+		93C57CE221217E0E0062D1B9 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		93C57CAC21217D8C0062D1B9 /* KKChartView */ = {
 			isa = PBXGroup;
 			children = (
+				93C57CE121217E0E0062D1B9 /* KKChartView.h */,
+				93C57CDF21217E0E0062D1B9 /* KKChartView.m */,
+				93C57CE221217E0E0062D1B9 /* UIColor+expanded.h */,
+				93C57CE021217E0E0062D1B9 /* UIColor+expanded.m */,
 				93C57CAD21217D8C0062D1B9 /* AppDelegate.h */,
 				93C57CAE21217D8C0062D1B9 /* AppDelegate.m */,
 				93C57CB021217D8C0062D1B9 /* ViewController.h */,
@@ -262,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C57CE421217E0E0062D1B9 /* UIColor+expanded.m in Sources */,
 				93C57CB221217D8C0062D1B9 /* ViewController.m in Sources */,
 				93C57CBD21217D8F0062D1B9 /* main.m in Sources */,
 				93C57CAF21217D8C0062D1B9 /* AppDelegate.m in Sources */,
+				93C57CE321217E0E0062D1B9 /* KKChartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
